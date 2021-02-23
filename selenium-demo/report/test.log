@@ -1,0 +1,147 @@
+2021-01-21 15:12:37,028   39816     INFO test_runner.py(154) - 预计并发线程数：1
+2021-01-21 15:12:37,030   10220     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:12:46,362   10220     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'active')]//div[contains(@class,'skip')]-click跳过         ----
+2021-01-21 15:12:54,402   10220     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//img[contains(@class,'wf-setting-btn')]-click设置服务器         ----
+2021-01-21 15:13:07,846   10220     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[2]//input-set_value服务器文本框http://10.10.88.198/WorkForce        ----
+2021-01-21 15:13:16,213   10220     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]/div[1]-click选择语言         ----
+2021-01-21 15:13:16,936   10220     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_滑动选择        ----
+2021-01-21 15:13:16,952   10220     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'picker-selected')]-get_value当前old选中值         ----
+2021-01-21 15:13:17,552   10220     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'wfm-btn-group')]/div[2]-click点击完成         ----
+2021-01-21 15:13:18,300   10220     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wfm-setting-button')]-click保存配置信息         ----
+2021-01-21 15:13:27,006   10220     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_notice- 验证是否登录成功         ----
+2021-01-21 15:13:30,713   10220     INFO result.py(152) - 测试执行通过： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:13:30,713   10220     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:13:30,713   10220     INFO result.py(88) - 耗时： 53.6828396320343
+2021-01-21 15:13:30,735   33356     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,736   33356     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,736   33356     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,736   33356     INFO result.py(88) - 耗时： 0.0
+2021-01-21 15:13:30,736   33356     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,737   33356     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,737   33356     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,737   33356     INFO result.py(88) - 耗时： 0.0
+2021-01-21 15:13:30,737   33356     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,737   33356     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,738   33356     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,738   33356     INFO result.py(88) - 耗时： 0.0009655952453613281
+2021-01-21 15:13:30,738   33356     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,738   33356     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-01-21 15:13:30,738   33356     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,738   33356     INFO result.py(88) - 耗时： 0.0
+2021-01-21 15:13:30,739   39816     INFO test_runner.py(191) - 
+Pass	test_001_login_1 (test_case.test_login.LoginTestCase)	001_用户名正确 密码正确 查看是否登录成功
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-01-21 15:13:30,739   39816    ERROR test_runner.py(193) - 
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-01-21 15:13:30,743   39816     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:55.521933
+共计执行用例数量：5
+执行成功用例数量：4
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-01-21 15:19:45,592   34700     INFO test_runner.py(154) - 预计并发线程数：1
+2021-01-21 15:19:45,594   16240     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:19:52,579   16240     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'active')]//div[contains(@class,'skip')]-click跳过         ----
+2021-01-21 15:19:55,083   16240     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//img[contains(@class,'wf-setting-btn')]-click设置服务器         ----
+2021-01-21 15:19:55,876   16240     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[2]//input-set_value服务器文本框http://10.10.88.198/WorkForce        ----
+2021-01-21 15:19:56,245   16240     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]/div[1]-click选择语言         ----
+2021-01-21 15:19:56,895   16240     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_滑动选择        ----
+2021-01-21 15:19:56,911   16240     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'picker-selected')]-get_value当前old选中值         ----
+2021-01-21 15:19:57,510   16240     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'wfm-btn-group')]/div[2]-click点击完成         ----
+2021-01-21 15:19:58,290   16240     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wfm-setting-button')]-click保存配置信息         ----
+2021-01-21 15:20:01,153   16240     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_notice- 验证是否登录成功         ----
+2021-01-21 15:20:04,166   16240     INFO result.py(152) - 测试执行通过： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:20:04,166   16240     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:20:04,166   16240     INFO result.py(88) - 耗时： 18.57242488861084
+2021-01-21 15:20:04,167   31504     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,167   31504     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,167   31504     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,168   31504     INFO result.py(88) - 耗时： 0.0
+2021-01-21 15:20:04,168   31504     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,168   31504     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,168   31504     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,168   31504     INFO result.py(88) - 耗时： 0.0
+2021-01-21 15:20:04,169   31504     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,169   31504     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,169   31504     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,169   31504     INFO result.py(88) - 耗时： 0.0
+2021-01-21 15:20:04,169   31504     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,169   31504     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-01-21 15:20:04,170   31504     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,170   31504     INFO result.py(88) - 耗时： 0.0009980201721191406
+2021-01-21 15:20:04,170   34700     INFO test_runner.py(191) - 
+Pass	test_001_login_1 (test_case.test_login.LoginTestCase)	001_用户名正确 密码正确 查看是否登录成功
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-01-21 15:20:04,170   34700    ERROR test_runner.py(193) - 
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-01-21 15:20:04,173   34700     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:20.217037
+共计执行用例数量：5
+执行成功用例数量：4
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-01-21 15:21:01,132   37700     INFO test_runner.py(154) - 预计并发线程数：1
+2021-01-21 15:21:01,134   41528     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:21:07,677   41528     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'active')]//div[contains(@class,'skip')]-click跳过         ----
+2021-01-21 15:21:10,110   41528     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//img[contains(@class,'wf-setting-btn')]-click设置服务器         ----
+2021-01-21 15:21:10,901   41528     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[2]//input-set_value服务器文本框http://10.10.88.198/WorkForce        ----
+2021-01-21 15:21:11,367   41528     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]/div[1]-click选择语言         ----
+2021-01-21 15:21:12,025   41528     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_滑动选择        ----
+2021-01-21 15:21:12,041   41528     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'picker-selected')]-get_value当前old选中值         ----
+2021-01-21 15:21:12,648   41528     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'wfm-btn-group')]/div[2]-click点击完成         ----
+2021-01-21 15:21:13,413   41528     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wfm-setting-button')]-click保存配置信息         ----
+2021-01-21 15:21:15,678   41528     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_notice- 验证是否登录成功         ----
+2021-01-21 15:21:18,775   41528     INFO result.py(152) - 测试执行通过： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:21:18,775   41528     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:21:18,775   41528     INFO result.py(88) - 耗时： 17.640883445739746
+2021-01-21 15:21:18,776   41280     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,776   41280     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,776   41280     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,777   41280     INFO result.py(88) - 耗时： 0.0
+2021-01-21 15:21:18,777   41280     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,777   41280     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,777   41280     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,777   41280     INFO result.py(88) - 耗时： 0.0
+2021-01-21 15:21:18,778   41280     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,778   41280     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,778   41280     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,778   41280     INFO result.py(88) - 耗时： 0.0
+2021-01-21 15:21:18,778   41280     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,778   41280     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-01-21 15:21:18,778   41280     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,779   41280     INFO result.py(88) - 耗时： 0.0
+2021-01-21 15:21:18,779   37700     INFO test_runner.py(191) - 
+Pass	test_001_login_1 (test_case.test_login.LoginTestCase)	001_用户名正确 密码正确 查看是否登录成功
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-01-21 15:21:18,779   37700    ERROR test_runner.py(193) - 
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-01-21 15:21:18,781   37700     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:19.279531
+共计执行用例数量：5
+执行成功用例数量：4
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+

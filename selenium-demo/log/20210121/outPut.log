@@ -1,0 +1,141 @@
+2021-01-21 15:12:46,362  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'active')]//div[contains(@class,'skip')]-click跳过         ----
+2021-01-21 15:12:54,402  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//img[contains(@class,'wf-setting-btn')]-click设置服务器         ----
+2021-01-21 15:13:07,846  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[2]//input-set_value服务器文本框http://10.10.88.198/WorkForce        ----
+2021-01-21 15:13:16,213  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]/div[1]-click选择语言         ----
+2021-01-21 15:13:16,936  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_滑动选择        ----
+2021-01-21 15:13:16,952  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'picker-selected')]-get_value当前old选中值         ----
+2021-01-21 15:13:17,552  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'wfm-btn-group')]/div[2]-click点击完成         ----
+2021-01-21 15:13:18,300  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wfm-setting-button')]-click保存配置信息         ----
+2021-01-21 15:13:27,006  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_notice- 验证是否登录成功         ----
+2021-01-21 15:13:30,713  - INFO - 测试执行通过： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:13:30,713  - INFO - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:13:30,713  - INFO - 耗时： 53.6828396320343
+2021-01-21 15:13:30,735  - INFO - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,736  - INFO - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,736  - INFO - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,736  - INFO - 耗时： 0.0
+2021-01-21 15:13:30,736  - INFO - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,737  - INFO - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,737  - INFO - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,737  - INFO - 耗时： 0.0
+2021-01-21 15:13:30,737  - INFO - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,737  - INFO - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,738  - INFO - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,738  - INFO - 耗时： 0.0009655952453613281
+2021-01-21 15:13:30,738  - INFO - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,738  - INFO - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-01-21 15:13:30,738  - INFO - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:13:30,738  - INFO - 耗时： 0.0
+2021-01-21 15:13:30,739  - INFO - 
+Pass	test_001_login_1 (test_case.test_login.LoginTestCase)	001_用户名正确 密码正确 查看是否登录成功
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-01-21 15:13:30,739  - ERROR - 
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-01-21 15:13:30,743  - INFO - 
+测试结束！
+运行时间: 0:00:55.521933
+共计执行用例数量：5
+执行成功用例数量：4
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-01-21 15:19:52,579  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'active')]//div[contains(@class,'skip')]-click跳过         ----
+2021-01-21 15:19:55,083  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//img[contains(@class,'wf-setting-btn')]-click设置服务器         ----
+2021-01-21 15:19:55,876  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[2]//input-set_value服务器文本框http://10.10.88.198/WorkForce        ----
+2021-01-21 15:19:56,245  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]/div[1]-click选择语言         ----
+2021-01-21 15:19:56,895  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_滑动选择        ----
+2021-01-21 15:19:56,911  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'picker-selected')]-get_value当前old选中值         ----
+2021-01-21 15:19:57,510  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'wfm-btn-group')]/div[2]-click点击完成         ----
+2021-01-21 15:19:58,290  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wfm-setting-button')]-click保存配置信息         ----
+2021-01-21 15:20:01,153  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_notice- 验证是否登录成功         ----
+2021-01-21 15:20:04,166  - INFO - 测试执行通过： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:20:04,166  - INFO - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:20:04,166  - INFO - 耗时： 18.57242488861084
+2021-01-21 15:20:04,167  - INFO - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,167  - INFO - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,167  - INFO - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,168  - INFO - 耗时： 0.0
+2021-01-21 15:20:04,168  - INFO - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,168  - INFO - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,168  - INFO - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,168  - INFO - 耗时： 0.0
+2021-01-21 15:20:04,169  - INFO - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,169  - INFO - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,169  - INFO - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,169  - INFO - 耗时： 0.0
+2021-01-21 15:20:04,169  - INFO - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,169  - INFO - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-01-21 15:20:04,170  - INFO - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:20:04,170  - INFO - 耗时： 0.0009980201721191406
+2021-01-21 15:20:04,170  - INFO - 
+Pass	test_001_login_1 (test_case.test_login.LoginTestCase)	001_用户名正确 密码正确 查看是否登录成功
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-01-21 15:20:04,170  - ERROR - 
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-01-21 15:20:04,173  - INFO - 
+测试结束！
+运行时间: 0:00:20.217037
+共计执行用例数量：5
+执行成功用例数量：4
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-01-21 15:21:07,677  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'active')]//div[contains(@class,'skip')]-click跳过         ----
+2021-01-21 15:21:10,110  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//img[contains(@class,'wf-setting-btn')]-click设置服务器         ----
+2021-01-21 15:21:10,901  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[2]//input-set_value服务器文本框http://10.10.88.198/WorkForce        ----
+2021-01-21 15:21:11,367  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]/div[1]-click选择语言         ----
+2021-01-21 15:21:12,025  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_滑动选择        ----
+2021-01-21 15:21:12,041  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'picker-selected')]-get_value当前old选中值         ----
+2021-01-21 15:21:12,648  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'wfm-btn-group')]/div[2]-click点击完成         ----
+2021-01-21 15:21:13,413  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wfm-setting-button')]-click保存配置信息         ----
+2021-01-21 15:21:15,678  - INFO - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_notice- 验证是否登录成功         ----
+2021-01-21 15:21:18,775  - INFO - 测试执行通过： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:21:18,775  - INFO - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-01-21 15:21:18,775  - INFO - 耗时： 17.640883445739746
+2021-01-21 15:21:18,776  - INFO - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,776  - INFO - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,776  - INFO - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,777  - INFO - 耗时： 0.0
+2021-01-21 15:21:18,777  - INFO - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,777  - INFO - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,777  - INFO - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,777  - INFO - 耗时： 0.0
+2021-01-21 15:21:18,778  - INFO - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,778  - INFO - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,778  - INFO - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,778  - INFO - 耗时： 0.0
+2021-01-21 15:21:18,778  - INFO - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,778  - INFO - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-01-21 15:21:18,778  - INFO - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-01-21 15:21:18,779  - INFO - 耗时： 0.0
+2021-01-21 15:21:18,779  - INFO - 
+Pass	test_001_login_1 (test_case.test_login.LoginTestCase)	001_用户名正确 密码正确 查看是否登录成功
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-01-21 15:21:18,779  - ERROR - 
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-01-21 15:21:18,781  - INFO - 
+测试结束！
+运行时间: 0:00:19.279531
+共计执行用例数量：5
+执行成功用例数量：4
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+

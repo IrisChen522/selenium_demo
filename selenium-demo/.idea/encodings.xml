@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/PageObject/__init__.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/PageObject/login.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/common/HTMLTestRunner.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/common/c_config_parser.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/common/enum_element.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/common/enum_error.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/common/log.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/common/utils_element.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/common/utils_excel.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/config/config.ini" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/config/global_param.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/control" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/chinese" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/english/login.xlsx" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/traditional/login.xlsx" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/log/20210119/outPut.log" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/public" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/run.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/test_case/test_login.py" charset="GBK" />
+  </component>
+</project>
