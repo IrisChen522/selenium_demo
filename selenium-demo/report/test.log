@@ -145,3 +145,748 @@ Skip	test_04 (test_case.test_unittest.TestUnittest)
 跳过执行用例数量：1
 产生异常用例数量：0
 
+2021-02-24 11:19:54,384 1345432     INFO test_runner.py(154) - 预计并发线程数：1
+2021-02-24 11:19:54,403 1367236     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 11:20:13,139 1367236     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'active')]//div[contains(@class,'skip')]-click跳过         ----
+2021-02-24 11:20:16,749 1367236     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//img[contains(@class,'wf-setting-btn')]-click设置服务器         ----
+2021-02-24 11:20:18,275 1367236     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[2]//input-set_value服务器文本框http://10.10.88.198/WorkForce        ----
+2021-02-24 11:20:19,261 1367236     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]/div[1]-click选择语言         ----
+2021-02-24 11:20:19,989 1367236     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_滑动选择        ----
+2021-02-24 11:20:20,033 1367236     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'picker-selected')]-get_value当前old选中值         ----
+2021-02-24 11:20:20,182 1367236     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wf-left-shift')]/div[3]//div[contains(@class,'wfm-btn-group')]/div[2]-click点击完成         ----
+2021-02-24 11:20:21,003 1367236     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_//div[contains(@class,'wfm-setting-button')]-click保存配置信息         ----
+2021-02-24 11:20:24,024 1367236     INFO log.py(46) - ----  test_001_login_001-用户名正确 密码正确 查看是否登录成功_notice- 验证是否登录成功         ----
+2021-02-24 11:20:27,626 1367236     INFO result.py(152) - 测试执行通过： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 11:20:27,627 1367236     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 11:20:27,628 1367236     INFO result.py(88) - 耗时： 33.223177671432495
+2021-02-24 11:20:27,631 1370680     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:20:27,669 1370680     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:20:27,671 1370680     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:20:27,672 1370680     INFO result.py(88) - 耗时： 0.03889632225036621
+2021-02-24 11:20:27,673 1370680     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:20:27,677 1370680     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:20:27,679 1370680     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:20:27,682 1370680     INFO result.py(88) - 耗时： 0.00498652458190918
+2021-02-24 11:20:27,683 1370680     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:20:27,687 1370680     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:20:27,689 1370680     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:20:27,690 1370680     INFO result.py(88) - 耗时： 0.004987001419067383
+2021-02-24 11:20:27,691 1370680     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:20:27,692 1370680     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-02-24 11:20:27,694 1370680     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:20:27,698 1370680     INFO result.py(88) - 耗时： 0.001994609832763672
+2021-02-24 11:20:27,700 1345432     INFO test_runner.py(191) - 
+Pass	test_001_login_1 (test_case.test_login.LoginTestCase)	001_用户名正确 密码正确 查看是否登录成功
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 11:20:27,702 1345432    ERROR test_runner.py(193) - 
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 11:20:27,707 1345432     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:35.043312
+共计执行用例数量：5
+执行成功用例数量：4
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：0
+
+2021-02-24 11:31:20,612 1373160     INFO test_runner.py(154) - 预计并发线程数：1
+2021-02-24 11:31:20,614 1372332     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 11:31:23,796 1372332    ERROR result.py(171) - 测试产生错误： test_001_login_1 (test_case.test_login.LoginTestCase)
+Traceback (most recent call last):
+  File "D:\git_tt\selenium-demo\test_case\test_login.py", line 23, in setUp
+    init_test__info(self)
+  File "D:\git_tt\selenium-demo\public\init_setup.py", line 11, in init_test__info
+    self.driver = webdriver.Chrome(options=chrome_options)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+
+
+2021-02-24 11:31:23,797 1372332     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 11:31:23,797 1372332     INFO result.py(88) - 耗时： 3.1834888458251953
+2021-02-24 11:31:23,798 1372388     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:31:23,799 1372388     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:31:23,799 1372388     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:31:23,799 1372388     INFO result.py(88) - 耗时： 0.0
+2021-02-24 11:31:23,799 1372388     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:31:23,800 1372388     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:31:23,800 1372388     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:31:23,800 1372388     INFO result.py(88) - 耗时： 0.0
+2021-02-24 11:31:23,800 1372388     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:31:23,800 1372388     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:31:23,800 1372388     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:31:23,800 1372388     INFO result.py(88) - 耗时： 0.0
+2021-02-24 11:31:23,800 1372388     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:31:23,801 1372388     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-02-24 11:31:23,801 1372388     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:31:23,801 1372388     INFO result.py(88) - 耗时： 0.0
+2021-02-24 11:31:23,801 1373160     INFO test_runner.py(191) - 
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 11:31:23,801 1373160    ERROR test_runner.py(193) - 
+Error	test_001_login_1 (test_case.test_login.LoginTestCase)
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 11:31:23,804 1373160     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:04.417190
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：1
+
+2021-02-24 11:45:56,876 1376236     INFO test_runner.py(154) - 预计并发线程数：1
+2021-02-24 11:45:56,878 1375340     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 11:45:59,974 1375340    ERROR result.py(171) - 测试产生错误： test_001_login_1 (test_case.test_login.LoginTestCase)
+Traceback (most recent call last):
+  File "D:\git_tt\selenium-demo\test_case\test_login.py", line 23, in setUp
+    init_test__info(self)
+  File "D:\git_tt\selenium-demo\public\init_setup.py", line 11, in init_test__info
+    self.driver = webdriver.Chrome(options=chrome_options)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+
+
+2021-02-24 11:45:59,974 1375340     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 11:45:59,974 1375340     INFO result.py(88) - 耗时： 3.095714569091797
+2021-02-24 11:45:59,975 1375292     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:45:59,975 1375292     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:45:59,976 1375292     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:45:59,976 1375292     INFO result.py(88) - 耗时： 0.0009980201721191406
+2021-02-24 11:45:59,976 1375292     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:45:59,976 1375292     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:45:59,976 1375292     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:45:59,977 1375292     INFO result.py(88) - 耗时： 0.0
+2021-02-24 11:45:59,977 1375292     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:45:59,977 1375292     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:45:59,977 1375292     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:45:59,977 1375292     INFO result.py(88) - 耗时： 0.0
+2021-02-24 11:45:59,977 1375292     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:45:59,977 1375292     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-02-24 11:45:59,977 1375292     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 11:45:59,978 1375292     INFO result.py(88) - 耗时： 0.0
+2021-02-24 11:45:59,978 1376236     INFO test_runner.py(191) - 
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 11:45:59,978 1376236    ERROR test_runner.py(193) - 
+Error	test_001_login_1 (test_case.test_login.LoginTestCase)
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 11:45:59,981 1376236     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:04.335395
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：1
+
+2021-02-24 12:36:04,475 1385864     INFO test_runner.py(154) - 预计并发线程数：1
+2021-02-24 12:36:04,477 1385792     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 12:36:07,606 1385792    ERROR result.py(171) - 测试产生错误： test_001_login_1 (test_case.test_login.LoginTestCase)
+Traceback (most recent call last):
+  File "D:\git_tt\selenium-demo\test_case\test_login.py", line 23, in setUp
+    init_test__info(self)
+  File "D:\git_tt\selenium-demo\public\init_setup.py", line 11, in init_test__info
+    self.driver = webdriver.Chrome(options=chrome_options)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+
+
+2021-02-24 12:36:07,606 1385792     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 12:36:07,606 1385792     INFO result.py(88) - 耗时： 3.128615140914917
+2021-02-24 12:36:07,606 1386760     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 12:36:07,607 1386760     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 12:36:07,607 1386760     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 12:36:07,607 1386760     INFO result.py(88) - 耗时： 0.0
+2021-02-24 12:36:07,607 1386760     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 12:36:07,607 1386760     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 12:36:07,607 1386760     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 12:36:07,608 1386760     INFO result.py(88) - 耗时： 0.0
+2021-02-24 12:36:07,608 1386760     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 12:36:07,608 1386760     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 12:36:07,608 1386760     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 12:36:07,608 1386760     INFO result.py(88) - 耗时： 0.0
+2021-02-24 12:36:07,608 1386760     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 12:36:07,609 1386760     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-02-24 12:36:07,609 1386760     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 12:36:07,609 1386760     INFO result.py(88) - 耗时： 0.0009980201721191406
+2021-02-24 12:36:07,616 1385864     INFO test_runner.py(191) - 
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 12:36:07,617 1385864    ERROR test_runner.py(193) - 
+Error	test_001_login_1 (test_case.test_login.LoginTestCase)
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 12:36:07,620 1385864     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:04.524910
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：1
+
+2021-02-24 13:02:37,370 1393596     INFO test_runner.py(154) - 预计并发线程数：1
+2021-02-24 13:02:37,374 1381536     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:02:41,010 1381536    ERROR result.py(171) - 测试产生错误： test_001_login_1 (test_case.test_login.LoginTestCase)
+Traceback (most recent call last):
+  File "D:\git_tt\selenium-demo\test_case\test_login.py", line 23, in setUp
+    init_test__info(self)
+  File "D:\git_tt\selenium-demo\public\init_setup.py", line 11, in init_test__info
+    self.driver = webdriver.Chrome(options=chrome_options)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+
+
+2021-02-24 13:02:41,010 1381536     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:02:41,010 1381536     INFO result.py(88) - 耗时： 3.635289192199707
+2021-02-24 13:02:41,012 1390708     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:02:41,012 1390708     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:02:41,012 1390708     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:02:41,012 1390708     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:02:41,013 1390708     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:02:41,013 1390708     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:02:41,013 1390708     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:02:41,013 1390708     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:02:41,013 1390708     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:02:41,013 1390708     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:02:41,013 1390708     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:02:41,013 1390708     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:02:41,014 1390708     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:02:41,014 1390708     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-02-24 13:02:41,014 1390708     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:02:41,014 1390708     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:02:41,014 1393596     INFO test_runner.py(191) - 
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:02:41,014 1393596    ERROR test_runner.py(193) - 
+Error	test_001_login_1 (test_case.test_login.LoginTestCase)
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:02:41,018 1393596     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:05.025575
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：1
+
+2021-02-24 13:06:09,863 1393100     INFO test_runner.py(154) - 预计并发线程数：1
+2021-02-24 13:06:09,865 1390576     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:06:13,022 1390576    ERROR result.py(171) - 测试产生错误： test_001_login_1 (test_case.test_login.LoginTestCase)
+Traceback (most recent call last):
+  File "D:\git_tt\selenium-demo\test_case\test_login.py", line 23, in setUp
+    init_test__info(self)
+  File "D:\git_tt\selenium-demo\public\init_setup.py", line 11, in init_test__info
+    self.driver = webdriver.Chrome(options=chrome_options)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+
+
+2021-02-24 13:06:13,022 1390576     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:06:13,022 1390576     INFO result.py(88) - 耗时： 3.157562732696533
+2021-02-24 13:06:13,024 1380532     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:06:13,025 1380532     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:06:13,025 1380532     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:06:13,025 1380532     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:06:13,025 1380532     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:06:13,026 1380532     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:06:13,026 1380532     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:06:13,026 1380532     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:06:13,026 1380532     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:06:13,027 1380532     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:06:13,027 1380532     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:06:13,027 1380532     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:06:13,027 1380532     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:06:13,027 1380532     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-02-24 13:06:13,028 1380532     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:06:13,028 1380532     INFO result.py(88) - 耗时： 0.0009989738464355469
+2021-02-24 13:06:13,028 1393100     INFO test_runner.py(191) - 
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:06:13,028 1393100    ERROR test_runner.py(193) - 
+Error	test_001_login_1 (test_case.test_login.LoginTestCase)
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:06:13,034 1393100     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:04.501972
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：1
+
+2021-02-24 13:14:57,358 1391236     INFO test_runner.py(154) - 预计并发线程数：1
+2021-02-24 13:14:57,360 1388668     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:15:00,530 1388668    ERROR result.py(171) - 测试产生错误： test_001_login_1 (test_case.test_login.LoginTestCase)
+Traceback (most recent call last):
+  File "D:\git_tt\selenium-demo\test_case\test_login.py", line 23, in setUp
+    init_test__info(self)
+  File "D:\git_tt\selenium-demo\public\init_setup.py", line 11, in init_test__info
+    self.driver = webdriver.Chrome(options=chrome_options)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+
+
+2021-02-24 13:15:00,530 1388668     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:15:00,530 1388668     INFO result.py(88) - 耗时： 3.169527292251587
+2021-02-24 13:15:00,531 1395016     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:15:00,531 1395016     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:15:00,531 1395016     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:15:00,531 1395016     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:15:00,532 1395016     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:15:00,532 1395016     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:15:00,532 1395016     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:15:00,532 1395016     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:15:00,532 1395016     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:15:00,532 1395016     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:15:00,533 1395016     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:15:00,533 1395016     INFO result.py(88) - 耗时： 0.000997304916381836
+2021-02-24 13:15:00,533 1395016     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:15:00,533 1395016     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-02-24 13:15:00,534 1395016     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:15:00,534 1395016     INFO result.py(88) - 耗时： 0.00099945068359375
+2021-02-24 13:15:00,534 1391236     INFO test_runner.py(191) - 
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:15:00,534 1391236    ERROR test_runner.py(193) - 
+Error	test_001_login_1 (test_case.test_login.LoginTestCase)
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:15:00,536 1391236     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:04.462075
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：1
+
+2021-02-24 13:21:03,382 1384600     INFO test_runner.py(154) - 预计并发线程数：1
+2021-02-24 13:21:03,387 1394316     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:21:06,388 1394316    ERROR result.py(171) - 测试产生错误： test_001_login_1 (test_case.test_login.LoginTestCase)
+Traceback (most recent call last):
+  File "D:\git_tt\selenium-demo\test_case\test_login.py", line 23, in setUp
+    init_test__info(self)
+  File "D:\git_tt\selenium-demo\public\init_setup.py", line 11, in init_test__info
+    self.driver = webdriver.Chrome(options=chrome_options)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+
+
+2021-02-24 13:21:06,388 1394316     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:21:06,389 1394316     INFO result.py(88) - 耗时： 3.000976085662842
+2021-02-24 13:21:06,389 1368804     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:21:06,390 1368804     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:21:06,390 1368804     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:21:06,390 1368804     INFO result.py(88) - 耗时： 0.0009980201721191406
+2021-02-24 13:21:06,390 1368804     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:21:06,391 1368804     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:21:06,391 1368804     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:21:06,391 1368804     INFO result.py(88) - 耗时： 0.0009992122650146484
+2021-02-24 13:21:06,391 1368804     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:21:06,391 1368804     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:21:06,391 1368804     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:21:06,391 1368804     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:21:06,391 1368804     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:21:06,391 1368804     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-02-24 13:21:06,392 1368804     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:21:06,392 1368804     INFO result.py(88) - 耗时： 0.0009949207305908203
+2021-02-24 13:21:06,392 1384600     INFO test_runner.py(191) - 
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:21:06,392 1384600    ERROR test_runner.py(193) - 
+Error	test_001_login_1 (test_case.test_login.LoginTestCase)
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:21:06,396 1384600     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:04.286541
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：1
+
+2021-02-24 13:22:11,252 1398312     INFO test_runner.py(154) - 预计并发线程数：1
+2021-02-24 13:22:11,255 1398748     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:22:14,285 1398748    ERROR result.py(171) - 测试产生错误： test_001_login_1 (test_case.test_login.LoginTestCase)
+Traceback (most recent call last):
+  File "D:\git_tt\selenium-demo\test_case\test_login.py", line 23, in setUp
+    init_test__info(self)
+  File "D:\git_tt\selenium-demo\public\init_setup.py", line 11, in init_test__info
+    self.driver = webdriver.Chrome(options=chrome_options)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+
+
+2021-02-24 13:22:14,285 1398748     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:22:14,285 1398748     INFO result.py(88) - 耗时： 3.0298995971679688
+2021-02-24 13:22:14,286 1398660     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:22:14,286 1398660     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:22:14,286 1398660     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:22:14,287 1398660     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:22:14,287 1398660     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:22:14,287 1398660     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:22:14,287 1398660     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:22:14,287 1398660     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:22:14,287 1398660     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:22:14,287 1398660     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:22:14,287 1398660     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:22:14,287 1398660     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:22:14,288 1398660     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:22:14,288 1398660     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-02-24 13:22:14,288 1398660     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:22:14,288 1398660     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:22:14,288 1398312     INFO test_runner.py(191) - 
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:22:14,288 1398312    ERROR test_runner.py(193) - 
+Error	test_001_login_1 (test_case.test_login.LoginTestCase)
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:22:14,291 1398312     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:04.284547
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：1
+
+2021-02-24 13:26:53,077 1398088     INFO test_runner.py(154) - 预计并发线程数：1
+2021-02-24 13:26:53,079 1397536     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:26:56,263 1397536    ERROR result.py(171) - 测试产生错误： test_001_login_1 (test_case.test_login.LoginTestCase)
+Traceback (most recent call last):
+  File "D:\git_tt\selenium-demo\test_case\test_login.py", line 23, in setUp
+    init_test__info(self)
+  File "D:\git_tt\selenium-demo\public\init_setup.py", line 11, in init_test__info
+    self.driver = webdriver.Chrome(options=chrome_options)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+
+
+2021-02-24 13:26:56,263 1397536     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:26:56,263 1397536     INFO result.py(88) - 耗时： 3.1844871044158936
+2021-02-24 13:26:56,264 1398616     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:26:56,264 1398616     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:26:56,264 1398616     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:26:56,264 1398616     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:26:56,265 1398616     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:26:56,265 1398616     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:26:56,265 1398616     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:26:56,265 1398616     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:26:56,265 1398616     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:26:56,265 1398616     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:26:56,265 1398616     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:26:56,265 1398616     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:26:56,265 1398616     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:26:56,266 1398616     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-02-24 13:26:56,266 1398616     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:26:56,266 1398616     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:26:56,266 1398088     INFO test_runner.py(191) - 
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:26:56,266 1398088    ERROR test_runner.py(193) - 
+Error	test_001_login_1 (test_case.test_login.LoginTestCase)
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:26:56,270 1398088     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:04.627630
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：1
+
+2021-02-24 13:31:00,254 1382036     INFO test_runner.py(154) - 预计并发线程数：1
+2021-02-24 13:31:00,256 1396604     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:31:03,365 1396604    ERROR result.py(171) - 测试产生错误： test_001_login_1 (test_case.test_login.LoginTestCase)
+Traceback (most recent call last):
+  File "D:\git_tt\selenium-demo\test_case\test_login.py", line 23, in setUp
+    init_test__info(self)
+  File "D:\git_tt\selenium-demo\public\init_setup.py", line 11, in init_test__info
+    self.driver = webdriver.Chrome(options=chrome_options)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+
+
+2021-02-24 13:31:03,365 1396604     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:31:03,365 1396604     INFO result.py(88) - 耗时： 3.1086883544921875
+2021-02-24 13:31:03,366 1130168     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:31:03,366 1130168     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:31:03,366 1130168     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:31:03,367 1130168     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:31:03,367 1130168     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:31:03,367 1130168     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:31:03,367 1130168     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:31:03,368 1130168     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:31:03,368 1130168     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:31:03,368 1130168     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:31:03,368 1130168     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:31:03,368 1130168     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:31:03,368 1130168     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:31:03,368 1130168     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-02-24 13:31:03,369 1130168     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:31:03,369 1130168     INFO result.py(88) - 耗时： 0.0009975433349609375
+2021-02-24 13:31:03,369 1382036     INFO test_runner.py(191) - 
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:31:03,369 1382036    ERROR test_runner.py(193) - 
+Error	test_001_login_1 (test_case.test_login.LoginTestCase)
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:31:03,371 1382036     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:04.310476
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：1
+
+2021-02-24 13:43:39,522 1404688     INFO test_runner.py(154) - 预计并发线程数：1
+2021-02-24 13:43:39,524 1404008     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:43:42,640 1404008    ERROR result.py(171) - 测试产生错误： test_001_login_1 (test_case.test_login.LoginTestCase)
+Traceback (most recent call last):
+  File "D:\git_tt\selenium-demo\test_case\test_login.py", line 23, in setUp
+    init_test__info(self)
+  File "D:\git_tt\selenium-demo\public\init_setup.py", line 11, in init_test__info
+    self.driver = webdriver.Chrome(options=chrome_options)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+
+
+2021-02-24 13:43:42,640 1404008     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 13:43:42,640 1404008     INFO result.py(88) - 耗时： 3.115668535232544
+2021-02-24 13:43:42,641 1401376     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:43:42,641 1401376     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:43:42,641 1401376     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:43:42,641 1401376     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:43:42,641 1401376     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:43:42,641 1401376     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:43:42,642 1401376     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:43:42,642 1401376     INFO result.py(88) - 耗时： 0.0009970664978027344
+2021-02-24 13:43:42,642 1401376     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:43:42,642 1401376     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:43:42,642 1401376     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:43:42,642 1401376     INFO result.py(88) - 耗时： 0.0
+2021-02-24 13:43:42,642 1401376     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:43:42,642 1401376     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-02-24 13:43:42,643 1401376     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 13:43:42,643 1401376     INFO result.py(88) - 耗时： 0.0009975433349609375
+2021-02-24 13:43:42,643 1404688     INFO test_runner.py(191) - 
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:43:42,643 1404688    ERROR test_runner.py(193) - 
+Error	test_001_login_1 (test_case.test_login.LoginTestCase)
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 13:43:42,645 1404688     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:04.455088
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：1
+
+2021-02-24 17:45:03,507   11972     INFO test_runner.py(154) - 预计并发线程数：1
+2021-02-24 17:45:03,554   13872     INFO result.py(65) - 开始测试： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 17:45:06,257   13872    ERROR result.py(171) - 测试产生错误： test_001_login_1 (test_case.test_login.LoginTestCase)
+Traceback (most recent call last):
+  File "D:\git_tt\selenium-demo\test_case\test_login.py", line 23, in setUp
+    init_test__info(self)
+  File "D:\git_tt\selenium-demo\public\init_setup.py", line 11, in init_test__info
+    self.driver = webdriver.Chrome(options=chrome_options)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\iris.chen\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+
+
+2021-02-24 17:45:06,257   13872     INFO result.py(86) - 测试结束： test_001_login_1 (test_case.test_login.LoginTestCase)
+2021-02-24 17:45:06,257   13872     INFO result.py(88) - 耗时： 2.7024593353271484
+2021-02-24 17:45:06,257   14380     INFO result.py(65) - 开始测试： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 17:45:06,257   14380     INFO result.py(152) - 测试执行通过： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 17:45:06,257   14380     INFO result.py(86) - 测试结束： test_01 (test_case.test_unittest.TestUnittest)
+2021-02-24 17:45:06,257   14380     INFO result.py(88) - 耗时： 0.0
+2021-02-24 17:45:06,257   14380     INFO result.py(65) - 开始测试： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 17:45:06,257   14380     INFO result.py(152) - 测试执行通过： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 17:45:06,257   14380     INFO result.py(86) - 测试结束： test_02 (test_case.test_unittest.TestUnittest)
+2021-02-24 17:45:06,257   14380     INFO result.py(88) - 耗时： 0.0
+2021-02-24 17:45:06,257   14380     INFO result.py(65) - 开始测试： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 17:45:06,257   14380     INFO result.py(152) - 测试执行通过： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 17:45:06,257   14380     INFO result.py(86) - 测试结束： test_03 (test_case.test_unittest.TestUnittest)
+2021-02-24 17:45:06,257   14380     INFO result.py(88) - 耗时： 0.0
+2021-02-24 17:45:06,257   14380     INFO result.py(65) - 开始测试： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 17:45:06,257   14380     INFO result.py(138) - 跳过测试： test_04 (test_case.test_unittest.TestUnittest)
+anyway
+2021-02-24 17:45:06,257   14380     INFO result.py(86) - 测试结束： test_04 (test_case.test_unittest.TestUnittest)
+2021-02-24 17:45:06,257   14380     INFO result.py(88) - 耗时： 0.0
+2021-02-24 17:45:06,257   11972     INFO test_runner.py(191) - 
+Pass	test_01 (test_case.test_unittest.TestUnittest)
+Pass	test_02 (test_case.test_unittest.TestUnittest)
+Pass	test_03 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 17:45:06,257   11972    ERROR test_runner.py(193) - 
+Error	test_001_login_1 (test_case.test_login.LoginTestCase)
+Skip	test_04 (test_case.test_unittest.TestUnittest)
+
+2021-02-24 17:45:06,257   11972     INFO test_runner.py(211) - 
+测试结束！
+运行时间: 0:00:03.874086
+共计执行用例数量：5
+执行成功用例数量：3
+执行失败用例数量：0
+跳过执行用例数量：1
+产生异常用例数量：1
+
